@@ -50,6 +50,36 @@ variable "dbsubnet_ipmap" {
   type        = map(string)
   default     = {}
 }
+
+
+##################### HUB vnet ###########
+variable "hubvnet"{
+    description = "hub vnet name"
+}
+
+variable "hubvnet1" {
+    description = "address space"
+}
+
+variable "hubsubnet" {
+  description = "Subnet Address Block"
+  type    = list(string)
+  default = []
+}
+
+variable "hubsubnetname" {
+  description = "name of Subnet Address Block"
+  type    = list(string)
+  default = []
+}
+
+variable "hubsubnet_ipmap" {
+  description = "Map of hostname and IP address for DB servers"
+  type        = map(string)
+  default     = {}
+}
+
+
 ########################
 ### TAGS ################################################################################
 

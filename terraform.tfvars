@@ -33,4 +33,12 @@ dbsubnet_ipmap = {
     snet-db-sql-eastus-001 = "10.2.1.0/24"
     snet-db-oracle-eastus-001 = "10.2.2.0/24"
     }
-    ####################
+    #################### hub variable################
+hubvnet = "vnet-hub-eastus-001"
+hubvnet1 = "10.3.0.0/16"
+hubsubnet = ["10.3.1.0/24", "10.3.2.0/24"]
+hubsubnetname = ["snet-hub-main-eastus-001", "snet-hub-bastian-eastus-001"]
+hubsubnet_ipmap = {
+    snet-hub-main-eastus-001 = "10.3.1.0/24"
+    snet-hub-bastian-eastus-001 = "10.3.2.0/24"
+    }
