@@ -15,7 +15,7 @@ subnet_ipmap = {
     snet-infra-ad-eastus-001 = "10.1.1.0/24"
     snet-infra-app-eastus-001 = "10.1.2.0/24"
     snet-infra-dmz-eastus-001 = "10.1.3.0/24"
-    }
+        }
 
 #########################
 ### TAGS ###################
@@ -36,9 +36,10 @@ dbsubnet_ipmap = {
     #################### hub variable################
 hubvnet = "vnet-hub-eastus-001"
 hubvnet1 = "10.3.0.0/16"
-hubsubnet = ["10.3.1.0/24", "10.3.2.0/24"]
-hubsubnetname = ["snet-hub-main-eastus-001", "snet-hub-bastian-eastus-001"]
+hubsubnet = ["10.3.1.0/24", "10.3.2.0/24", "10.3.3.0/26"]
+hubsubnetname = ["snet-hub-main-eastus-001", "snet-hub-bastian-eastus-001", "AzureFirewallSubnet"]
 hubsubnet_ipmap = {
     snet-hub-main-eastus-001 = "10.3.1.0/24"
     snet-hub-bastian-eastus-001 = "10.3.2.0/24"
+    AzureFirewallSubnet = "10.3.3.0/26"
     }
