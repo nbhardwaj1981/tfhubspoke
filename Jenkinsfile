@@ -5,7 +5,7 @@ pipeline {
         terraform 'jenkins-terraform'
     }
     stages {
-        stage ("checkout from GIT") {
+        stage ("checkout from GITHUB") {
             steps {
                    checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/nbhardwaj1981/tfhubspoke']]])
             }
