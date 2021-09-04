@@ -1,3 +1,5 @@
+client_secret = "4iknXtS3uwt-4EO4OpG5Dq_f4psnQ2c1qY"
+
 ##############################
 ### Network Variables#########
 infravnet = "vnet-infra-eastus-001"

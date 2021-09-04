@@ -95,3 +95,7 @@ variable "owner" {
   description = "owner Tag"
 }
 #######################
+
+variable "client_secret" {
+  description = "client secret of SP"
+}
