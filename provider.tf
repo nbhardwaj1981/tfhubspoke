@@ -15,4 +15,3 @@ provider "azurerm" {
   client_secret   = var.client_secret
   tenant_id       = "b4066f45-27f1-486d-a284-3a71e3d644f0"
 }
-}
